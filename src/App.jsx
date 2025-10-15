@@ -1,11 +1,17 @@
 import React from 'react'
+import { Routes, Route } from "react-router-dom";
 import './App.css'
+import Layout from './pages/Layout'
+import LearnMore from './pages/LearnMore';
 
 function App() {
 
   return (
     <>
-      <h1 className='font-bold'>hii </h1>
+      <Routes>
+        <Route path='/' element={<Layout />}/>
+        <Route path="/learnmore" element={<LearnMore />} />
+      </Routes>
     </>
   )
 }
