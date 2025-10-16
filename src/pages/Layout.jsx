@@ -3,6 +3,8 @@ import Header from '../component/Header'
 import Footer from '../component/Footer'
 import About from './About'
 import HeroBanner from './HeroBanner'
+import Features from './Features'
+import Counting from "./Counting"
 
 function Layout() {
   return (
@@ -10,6 +12,8 @@ function Layout() {
         <Header/>
         <HeroBanner/>
         <About/>
+        <Features/>
+        <Counting/>
         <Footer/>
     </div>
   )

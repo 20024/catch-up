@@ -9,7 +9,9 @@ function Header() {
 
   return (
     <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-4 flex justify-between items-center">
+      <a href='/'>
       <div className="text-xl font-bold cursor-pointer">Catch-up</div>
+      </a>
 
       <div className="flex items-right space-x-4 mr-5">
        

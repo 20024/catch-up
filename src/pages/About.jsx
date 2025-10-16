@@ -3,7 +3,7 @@ import React from 'react'
 function Homepage() {
   return (
     <div>
-         <div className="py-16 bg-gray-100 text-center">
+         <div className="py-16 bg-blue-50 text-center">
         <h2 className="text-3xl font-semibold text-blue-600 mb-8">Why CatchUp?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">

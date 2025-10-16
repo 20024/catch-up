@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import './App.css'
 import Layout from './pages/Layout'
 import LearnMore from './pages/LearnMore';
+import  Features  from './pages/Features';
+import  Counting  from './pages/Counting';
 
 function App() {
 
@@ -11,7 +13,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}/>
         <Route path="/learnmore" element={<LearnMore />} />
-      </Routes>
+        <Route path='/features' element={<Features/>}/>
+        <Route path='/counting' element={<Counting/>} />     
+        </Routes>
     </>
   )
 }
