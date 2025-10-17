@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-gray-200 text-gray-700 py-6 text-center mt-auto">
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-2">
-        <Link to="/" className="hover:text-blue-600 transition-colors">
+        <Link to="/feed" className="hover:text-blue-600 transition-colors">
           Home
         </Link>
         <span className="hidden sm:inline">|</span>
@@ -16,7 +16,7 @@ function Footer() {
         <span className="hidden sm:inline">|</span>
 
         <Link to="/terms" className="hover:text-blue-600 transition-colors">
-          Terms
+          Terms & Condition
         </Link>
         <span className="hidden sm:inline">|</span>
 

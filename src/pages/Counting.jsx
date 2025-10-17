@@ -6,7 +6,7 @@ function Counting() {
   return (
     <section className="py-5 bg-blue-50 text-center">
       <h2 className="text-3xl font-semibold text-blue-600 mb-8">
-        Our Growing CatchUp Community 💙
+        Our Growing CatchUp Community
       </h2>
 
       <div className="flex flex-col py-8 sm:flex-row justify-center items-center gap-10 md:gap-20 lg:90 px-8">
