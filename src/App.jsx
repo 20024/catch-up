@@ -7,6 +7,8 @@ import  Features  from './pages/Features';
 import  Counting  from './pages/Counting';
 import About from './pages/About'
 import Feed from './pages/Feed'
+import Profile from './component/Profile'
+
 function App() {
 
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path='/counting' element={<Counting/>} /> 
         <Route path='/about' element={<About/>}/>  
         <Route path='/feed' element={<Feed/>} />
+        <Route path="/profile" element={<Profile />} />
         </Routes>
     </>
   )
